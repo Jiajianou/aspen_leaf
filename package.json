@@ -1,0 +1,30 @@
+{
+  "name": "aspen_leaf",
+  "version": "1.0.0",
+  "description": "An all in one financial asset dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiajianou/aspen_leaf.git"
+  },
+  "keywords": [
+    "financial",
+    "asset",
+    "dashboard"
+  ],
+  "author": "Jiajian Ou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiajianou/aspen_leaf/issues"
+  },
+  "homepage": "https://github.com/Jiajianou/aspen_leaf#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}

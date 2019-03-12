@@ -10,18 +10,9 @@
 
     <h2>Welcome to Aspen Leaf</h2>
 
-    <p id="crypto">  </p>
+    <span></span>
 
 
-
-    <script>
-fetch('https://api.iextrading.com/1.0/stock/market/crypto')
-    .then(res => res.json())
-    .then((out) => {
-        console.log('Output: ', out);
-        document.getElementById('crypto').innerHTML = JSON.stringify(out);
-}).catch(err => console.error(err));
-</script>
 
   </body>
 </html>
